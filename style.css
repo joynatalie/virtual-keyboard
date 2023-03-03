@@ -1,0 +1,19 @@
+#keyboard {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.key {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border: 1px solid black;
+	margin: 5px;
+	text-align: center;
+	line-height: 30px;
+	cursor: pointer;
+}
+
+.space {
+	width: 60px;
+}
